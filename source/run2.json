@@ -1,0 +1,36 @@
+{
+    "rootdir": "./DEEPWIF/",
+    "data_dir": "data2/Test20220314/syn_rov/",
+    "trainio_dir_glob": "[2-7]/syn/*",
+    "testio_dir_glob": "2/syn/*",
+    "train_dir_glob": "[1,2-4,7,8,9]/syn/*",
+    "test_dir_glob": "test/test/[1,2]/syn/*",
+    "save_path": "save2/",
+
+    "train_seqlen": 100,
+    "train_seqnum_eachdata": 20,
+    "shadowing_vector": [1, 1, 1, 0, 0],
+    "shadowed_probability": 0.9,
+    "stride": 10,
+    "n_steps": 200,
+    "min_ned": 2000, "max_ned": 5000,
+    "rovlp_epoch": 300,
+    "rovlp_optimizer": "opt=Adam lr=0.0008",
+    
+    "testall": 0,
+    "test_fileno": 4,
+    "test_start_at": 20000, "test_end_at": 130000,
+    "batchsize": 42,
+    "test_shadow_probability": 0.8, 
+    "cdf_shadow": 0,
+
+    "ionet_optimizer": "opt=Adam lr=0.001",
+    "ionet_epoch": 300,
+    "ionet_test_start_at": 213000, "ionet_test_end_at": 250000,
+    "outlier_angle": 4,
+    "feat_sigma": 0.01,
+    "targ_sigma": 0.3,
+
+    "VLP_lr": 0.001,
+    "VLP_epoch": 500
+}
