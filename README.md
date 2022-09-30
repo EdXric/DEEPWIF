@@ -65,10 +65,10 @@ For the wireless positioning encoder:
 3) Test model: python3 ./DEEPWIF/wif_main.py -m test -M vlp
 
 For DEEPWIF:
-1) Training set: python3 ./RoV/wif_main.py -m trainset -M rov 
-2) Train model: python3 ./RoV/wif_main.py -m train -M rov -se 1 -emd **
-3) Test set: python3 ./RoV/wif_main.py -m testset -M rov
-4) Test model: python3 ./RoV/wif_main.py -m test -M rov --epochmodeldest ** --withmodelepoch 2
+1) Training set: python3 ./DEEPWIF/wif_main.py -m trainset -M rov 
+2) Train model: python3 ./DEEPWIF/wif_main.py -m train -M rov -se 1 -emd **
+3) Test set: python3 ./DEEPWIF/wif_main.py -m testset -M rov
+4) Test model: python3 ./DEEPWIF/wif_main.py -m test -M rov --epochmodeldest ** --withmodelepoch 2
 
 B. Shell
 1) ./DEEPWIF/run.sh<br><br><br>
